@@ -48,7 +48,14 @@ public class Employe {
 	public Integer getNbConges() {
 		return Entreprise.NB_CONGES_BASE;
 }
+	/*Coder la méthode augmenterSalaire prenant en paramètre un pourcentage d'augmentation de type Double
+	 * et augmentant l'attribut salaire du pourcentage passé en paramètre : */
+	
+	public void augmenterSalaire(Double pourcentage) {
+		this.salaire = this.getSalaire() * (1 + pourcentage);
+}
 
+	
 	//Getters/Setters
 	
 	
