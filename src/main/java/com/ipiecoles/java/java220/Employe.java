@@ -7,7 +7,7 @@ import org.joda.time.LocalDate;
 /**
  * Created by pjvilloud on 21/09/17.
  */
-public class Employe {
+public abstract class Employe {
 	//Constantes
 	
 	//Attributs
@@ -55,6 +55,9 @@ public class Employe {
 		this.salaire = this.getSalaire() * (1 + pourcentage);
 }
 
+	/* Déclarer dans la classe Employe une méthode abstraite getPrimeAnnuelle retournant un Double */
+	
+	public abstract Double getPrimeAnnuelle();
 	
 	//Getters/Setters
 	
