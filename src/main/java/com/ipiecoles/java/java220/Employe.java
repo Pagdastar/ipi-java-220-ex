@@ -80,10 +80,6 @@ public class Employe {
 		return dateEmbauche;
 	}
 	
-	public void setDateEmbauche(LocalDate dateEmbauche) {
-		this.dateEmbauche = dateEmbauche;
-	}
-	
 	public Double getSalaire() {
 		return salaire;
 	}
